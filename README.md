@@ -15,3 +15,8 @@ A Java app template project with basic configuration.
     * Junit 4
     * Mockito
     * Logback
+    
+## Support or Contact
+Bug & issues can be post in [issues tracker](https://github.com/mquan86/java-app/issues)
+
+Email: mquan86 [ at ] gmail[ dot ]com
