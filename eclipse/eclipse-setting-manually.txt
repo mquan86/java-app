@@ -1,0 +1,114 @@
+* General
+    Always run in background
+    Show heap status
+    
+    * Editors
+        * Text Editors
+            Insert spaces for tabs
+            
+    * Perspectives
+        Open the associated... Always open
+        
+    * Workspace
+        Show workspace path in window title
+        Text file encoding - UTF-8
+        
+* Checkstyle
+    Setup checkstyle rule
+
+* Java
+    * Code Style
+        * Code Templates
+            Automatically add comments...
+            Comments 
+                Files - Remove
+                Types - Edit
+            Code
+                Method body - Remove comments
+                Constructor body - Remove comments
+                Catch block body - log.error("", ${exception_var});
+        
+        * Formatter
+            Setup formatter
+                
+    * Editor
+        * Content Assist
+            * Favorites
+                org.junit.Assert
+                org.mockito.Matchers
+                org.mockito.Mockito
+                
+        * Save Actions
+            Perform the selected actions on save
+                Format source code
+                    Format all lines
+                Organize imports
+                
+        * Templates
+            debugLog
+                log.debug("${}");${cursor}
+            errorLog
+                log.error("${}",  ${exception:var(java.lang.Exception)});${cursor}
+            getLogger
+                ${:import(org.slf4j.Logger, org.slf4j.LoggerFactory)};
+                private static final Logger log = LoggerFactory.getLogger(${enclosing_type}.class);
+            infoLog
+                log.info("${}");${cursor}
+            traceLog
+                log.trace("${enclosing_type}.${enclosing_method}: ${}");${cursor}
+            warnLog
+                log.warn("${}");${cursor}
+    
+    * Installed JREs
+        Set JDK and source attachment
+    
+* Javascript
+    * Code Style
+        * Code Templates
+            Comments
+                File - Remove
+                Types - Edit
+            Code
+                Function body - Remove comments
+                Constructor body - Remove comments
+                Catch block body - Remove comments
+                
+        * Formatter
+            Tab policy: Spaces only
+            Tab size: 4
+            Line wrapping: 100
+            
+    * Editor
+        * Save Actions
+            Perform the selected actions on save
+                Format source code
+
+* Run/Debug
+    * Console
+        Show when program writes to standard out
+        Show when program writes to standard error
+        
+    * Launching
+        Always launch the previously launched application
+
+* Server
+    Show servers view when server state changes
+
+* Web
+    * CSS Files
+        * Editor
+            Lined width: 100
+            Indent using spaces
+            Indentation size: 4
+            
+    * HTML Files
+        * Editor
+            Lined width: 100
+            Indent using spaces
+            Indentation size: 4
+* XML
+    * XML Files
+        * Editor
+            Lined width: 100
+            Indent using spaces
+            Indentation size: 4
