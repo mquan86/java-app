@@ -96,18 +96,32 @@
 
 * Web
     * CSS Files
+        Encoding: UTF-8
+        
         * Editor
             Lined width: 100
             Indent using spaces
             Indentation size: 4
             
     * HTML Files
+        Encoding: UTF-8
+        
         * Editor
             Lined width: 100
             Indent using spaces
             Indentation size: 4
+            
+                * Templates
+                    linkCss
+                        <link rel="stylesheet" type="text/css" href="${}"  />
+    
+    * JSP Files
+        Encoding: UTF-8
+        
 * XML
     * XML Files
+        Encoding: UTF-8
+        
         * Editor
             Lined width: 100
             Indent using spaces
