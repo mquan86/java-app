@@ -5,7 +5,7 @@
     This configuration file was written by the eclipse-cs plugin configuration editor
 -->
 <!--
-    Checkstyle-Configuration: GoogleAdopted
+    Checkstyle-Configuration: Adopted
     Description: none
 -->
 <module name="Checker">
@@ -160,6 +160,6 @@
   </module>
   <module name="FileTabCharacter">
     <property name="eachLine" value="true"/>
-    <property name="fileExtensions" value="java xml js html"/>
+    <property name="fileExtensions" value="java xml js html css"/>
   </module>
 </module>
