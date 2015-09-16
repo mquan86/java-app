@@ -6,6 +6,11 @@
         * Text Editors
             Insert spaces for tabs
             
+    * Keys
+        Run Tests - Alt + R
+        Jump to Test/Source - Alt + J
+        Create Test Method - Alt + U    
+    
     * Perspectives
         Open the associated... Always open
         
