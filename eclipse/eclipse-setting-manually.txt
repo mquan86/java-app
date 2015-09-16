@@ -55,7 +55,7 @@
             errorLog
                 log.error("${}",  ${exception:var(java.lang.Exception)});${cursor}
             getLogger
-                ${:import(org.slf4j.Logger, org.slf4j.LoggerFactory)};
+                ${:import(org.slf4j.Logger, org.slf4j.LoggerFactory)}
                 private static final Logger log = LoggerFactory.getLogger(${enclosing_type}.class);
             infoLog
                 log.info("${}");${cursor}
