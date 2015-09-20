@@ -22,6 +22,18 @@
     Setup checkstyle rule
 
 * Java
+    * Appearance
+        * Type Filters
+            com.oracle.*
+            com.sun.*
+            java.awt.*
+            javafx.*
+            javax.swing.*
+            jdk.*
+            junit.*
+            sun.*
+            
+            
     * Code Style
         * Code Templates
             Automatically add comments...
@@ -63,6 +75,9 @@
                 log.trace("${enclosing_type}.${enclosing_method}: ${}");${cursor}
             warnLog
                 log.warn("${}");${cursor}
+            mockitoRunner
+                ${:import(org.junit.runner.RunWith, org.mockito.runners.MockitoJUnitRunner, org.mockito.Mock)}
+                @RunWith(MockitoJUnitRunner.class)
     
     * Installed JREs
         Set JDK and source attachment
