@@ -105,11 +105,14 @@
 
 * Run/Debug
     * Console
-        Show when program writes to standard out
-        Show when program writes to standard error
+        Unchecked - Show when program writes to standard out
+        Unchecked - Show when program writes to standard error
         
     * Launching
         Always launch the previously launched application
+    
+    * Perspectives
+        Open the associated perspective when an application suspends: Always
 
 * Server
     Show servers view when server state changes

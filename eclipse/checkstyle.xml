@@ -111,7 +111,9 @@
       <message key="ws.preceded" value="GenericWhitespace ''{0}'' is preceded with whitespace."/>
       <message key="ws.illegalFollow" value="GenericWhitespace ''{0}'' should followed by whitespace."/>
     </module>
-    <module name="Indentation"/>
+    <module name="Indentation">
+      <property name="arrayInitIndent" value="8"/>
+    </module>
     <module name="AbbreviationAsWordInName">
       <property name="allowedAbbreviationLength" value="1"/>
       <property name="ignoreFinal" value="false"/>
