@@ -105,6 +105,15 @@
           url="http://www.objectaid.net/update"/>
       <description></description>
     </setupTask>
+    <setupTask
+        xsi:type="setup.p2:P2Task"
+        id="Oomph"
+        label="Oomph">
+      <requirement
+          name="org.eclipse.oomph.all.feature.group"/>
+      <repository
+          url="http://download.eclipse.org/oomph/updates"/>
+    </setupTask>
   </setupTask>
   <setupTask
       xsi:type="setup:CompoundTask"
