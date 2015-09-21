@@ -15,6 +15,7 @@
         Open the associated... Always open
         
     * Workspace
+        Refresh using native hooks or polling
         Show workspace path in window title
         Text file encoding - UTF-8
         
@@ -97,14 +98,10 @@
             Tab policy: Spaces only
             Tab size: 4
             Line wrapping: 100
-            
-    * Editor
-        * Save Actions
-            Perform the selected actions on save
-                Format source code
 
 * Run/Debug
     * Console
+        Displayed tab width: 4
         Unchecked - Show when program writes to standard out
         Unchecked - Show when program writes to standard error
         
@@ -115,7 +112,7 @@
         Open the associated perspective when an application suspends: Always
 
 * Server
-    Show servers view when server state changes
+    Unchecked - Show servers view when server state changes
 
 * Web
     * CSS Files
@@ -136,7 +133,7 @@
             
                 * Templates
                     linkCss
-                        <link rel="stylesheet" type="text/css" href="${}"  />
+                        <link rel="stylesheet" type="text/css" href="${}" />
     
     * JSP Files
         Encoding: UTF-8
