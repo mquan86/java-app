@@ -79,6 +79,8 @@
             mockitoRunner
                 ${:import(org.junit.runner.RunWith, org.mockito.runners.MockitoJUnitRunner, org.mockito.Mock)}
                 @RunWith(MockitoJUnitRunner.class)
+            privateConstructor
+                private ${enclosing_type}() {}
     
     * Installed JREs
         Set JDK and source attachment
