@@ -15,6 +15,7 @@ A Java app template project with basic configuration.
     * Junit 4
     * Mockito
     * Logback
+    * Apache Commons Lang and IO
     
 ## Support or Contact
 Bug & issues can be post in [issues tracker](https://github.com/mquan86/java-app/issues)
