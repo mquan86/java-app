@@ -101,6 +101,14 @@
             Tab size: 4
             Line wrapping: 100
 
+* Oomph
+    * Setup Tasks
+        Skip automatic task execution at startup time
+
+* PMD
+    * Rule Configuration
+        Use global rule management
+            
 * Run/Debug
     * Console
         Displayed tab width: 4

@@ -117,6 +117,16 @@
     </setupTask>
     <setupTask
         xsi:type="setup.p2:P2Task"
+        id="PMD"
+        label="PMD">
+      <requirement
+          name="net.sourceforge.pmd.eclipse.feature.group"/>
+      <repository
+          url="http://sourceforge.net/projects/pmd/files/pmd-eclipse/update-site/"/>
+      <description></description>
+    </setupTask>
+    <setupTask
+        xsi:type="setup.p2:P2Task"
         id="Oomph"
         label="Oomph">
       <requirement
@@ -174,6 +184,10 @@
       <setupTask
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.javadoc"
+          value="true"/>
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.text.code_templates_migrated"
           value="true"/>
       <setupTask
           xsi:type="setup:PreferenceTask"
@@ -1357,11 +1371,15 @@
           value="org.junit.Assert.*;org.mockito.Matchers.*;org.mockito.Mockito.*"/>
       <setupTask
           xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.jdt.ui/editor_save_participant_org.eclipse.jdt.ui.postsavelistener.cleanup"
+          value="true"/>
+      <setupTask
+          xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.jdt.ui/sp_cleanup.format_source_code"
           value="true"/>
       <setupTask
           xsi:type="setup:PreferenceTask"
-          key="/instance/org.eclipse.jdt.ui/editor_save_participant_org.eclipse.jdt.ui.postsavelistener.cleanup"
+          key="/instance/org.eclipse.jdt.ui/sp_cleanup.organize_imports"
           value="true"/>
       <setupTask
           xsi:type="setup:PreferenceTask"
@@ -2444,6 +2462,17 @@
             value="do not insert"/>
       </setupTask>
     </setupTask>
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="Oomph">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.oomph.setup.ui/skip.startup.tasks"
+          value="true"/>
+    </setupTask>
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="PMD"/>
     <setupTask
         xsi:type="setup:CompoundTask"
         name="Run/Debug">
