@@ -81,6 +81,8 @@
                 @RunWith(MockitoJUnitRunner.class)
             privateConstructor
                 private ${enclosing_type}() {}
+            loadResource
+                Thread.currentThread().getContextClassLoader().getResource("com/package/filename.txt").getPath()
     
     * Installed JREs
         Set JDK and source attachment
