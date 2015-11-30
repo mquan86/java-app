@@ -51,6 +51,9 @@
                 
     * Editor
         * Content Assist
+            Insert best guessed arguments.
+            Auto activation trigger for Java: .abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ
+        
             * Favorites
                 org.junit.Assert
                 org.mockito.Matchers
@@ -84,6 +87,9 @@
             loadResource
                 Thread.currentThread().getContextClassLoader().getResource("com/package/filename.txt").getPath()
     
+        * Typing
+            Escape text when parsing into a string literal.
+        
     * Installed JREs
         Set JDK and source attachment
     
@@ -102,6 +108,10 @@
             Tab policy: Spaces only
             Tab size: 4
             Line wrapping: 100
+
+* Maven
+    * User Interface
+        Open XML page in the POM editor by default.
 
 * Oomph
     * Setup Tasks
