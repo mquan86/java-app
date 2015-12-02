@@ -16,6 +16,7 @@ A Java app template project with basic configuration.
     * Mockito
     * Logback
     * Apache Commons Lang and IO
+    * Spring Framework Dependencies Version
     
 ## Support or Contact
 Bug & issues can be post in [issues tracker](https://github.com/mquan86/java-app/issues)
