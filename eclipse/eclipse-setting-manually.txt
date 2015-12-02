@@ -48,7 +48,13 @@
         
         * Formatter
             Setup formatter
-                
+    
+    * Debug
+        * Step Filtering
+            Enable all defined step filters
+            Filter simple getters
+            Filter simple setters
+    
     * Editor
         * Content Assist
             Insert best guessed arguments.

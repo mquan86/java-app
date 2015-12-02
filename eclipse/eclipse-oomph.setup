@@ -1366,6 +1366,26 @@
             value="insert"/>
       </setupTask>
       <setupTask
+          xsi:type="setup:CompoundTask"
+          name="Debug Step Filters">
+        <setupTask
+            xsi:type="setup:PreferenceTask"
+            key="/instance/org.eclipse.jdt.debug.ui/org.eclipse.jdt.debug.ui.active_filters"
+            value="com.ibm.*,com.sun.*,java.*,javax.*,jrockit.*,org.omg.*,sun.*,sunw.*,java.lang.ClassLoader"/>
+        <setupTask
+            xsi:type="setup:PreferenceTask"
+            key="/instance/org.eclipse.jdt.debug.ui/org.eclipse.jdt.debug.ui.filter_get"
+            value="true"/>
+        <setupTask
+            xsi:type="setup:PreferenceTask"
+            key="/instance/org.eclipse.jdt.debug.ui/org.eclipse.jdt.debug.ui.filter_setters"
+            value="true"/>
+        <setupTask
+            xsi:type="setup:PreferenceTask"
+            key="/instance/org.eclipse.jdt.debug.ui/org.eclipse.jdt.debug.ui.inactive_filters"
+            value=""/>
+      </setupTask>
+      <setupTask
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.jdt.ui/content_assist_guess_method_arguments"
           value="true"/>
