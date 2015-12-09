@@ -12,11 +12,11 @@ A Java app template project with basic configuration.
     * Java formatter.
     * Java code templates.
 * Dependencies:
-    * Junit 4.
+    * Spring IO Platform Version.
+    * JUnit.
     * Mockito.
-    * Logback.
+    * SLF4J & Logback.
     * Apache Commons Lang and IO.
-    * Spring Framework Dependencies Version.
     
 ## Support or Contact
 Bug & issues can be post in [issues tracker](https://github.com/mquan86/java-app/issues)
